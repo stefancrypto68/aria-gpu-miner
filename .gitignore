@@ -1,0 +1,27 @@
+# Build artefacts
+argon2-gpu/build/
+argon2-gpu/ext/argon2/*.so*
+argon2-gpu/ext/argon2/*.o
+**/*.o
+**/*.a
+**/CMakeCache.txt
+**/CMakeFiles/
+
+# Our binary outputs
+miner/aria-gpu-miner
+miner/test_setpwsalt
+miner/*.o
+
+# Logs / pid / tmp
+*.log
+*.pid
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local config
+.env
+.env.local
